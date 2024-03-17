@@ -12,7 +12,9 @@ class AccountDetailViewModel: ObservableObject {
     @Published var recentTransactions: [Transaction] = [
         Transaction(description: "Starbucks", amount: "-€5.50"),
         Transaction(description: "Amazon Purchase", amount: "-€34.99"),
-        Transaction(description: "Salary", amount: "+€2,500.00")
+        Transaction(description: "Auchan", amount: "-€4.99"),
+        Transaction(description: "Salary", amount: "+€2,500.00"),
+        Transaction(description: "Glacier", amount: "-€12.90")
     ]
     
     struct Transaction {

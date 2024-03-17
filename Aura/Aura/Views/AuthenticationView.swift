@@ -60,6 +60,7 @@ struct AuthenticationView: View {
                                 .cornerRadius(8)
                         }
                     }
+                    .disabled(true)
                     .padding(.horizontal, 40)
                 }
         .onTapGesture {
